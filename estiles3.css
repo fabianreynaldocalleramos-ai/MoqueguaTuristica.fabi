@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5F9F5;
+    color: #333333;
+}
+
+header {
+    background-color: #1B5E20;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+nav a.activo {
+    background-color: #16865B;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url("imagenes_/sarawja1.jfif");
+    background-size: cover;
+    background-position: center;
+    padding: 35px 5%;
+}
+
+.banner h2,
+.banner p {
+    background-color: rgba(255, 255, 255, 0.90);
+    max-width: 500px;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner h2 {
+    color: #1B5E20;
+    font-size: 30px;
+    border-radius: 8px 8px 0 0;
+}
+
+.banner p {
+    line-height: 1.5;
+    border-radius: 0 0 8px 8px;
+}
+
+main {
+    width: 90%;
+    max-width: 1400px;
+    margin: 25px auto;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.categorias button {
+    background-color: #E6EFE8;
+    color: #1B5E20;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.categorias button.seleccionado {
+    background-color: #1B5E20;
+    color: white;
+}
+
+.galeria {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px #CCCCCC;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.informacion {
+    padding: 10px;
+}
+
+.informacion h3 {
+    color: #1B5E20;
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+
+.informacion p {
+    color: #555555;
+    margin: 0;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #1B5E20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
